@@ -1,2 +1,4 @@
 # network_research
 The purpose of this project lies in the creation of a bash script key feature with the flexibility in accepting user-specified scan targets, putting the user in control. 
+
+It involves setting up a system that starts with the installation of necessary applications, preventing the need for repeated installations. It conducts an anonymity check of the network connection, promptly alerting if it is non-anonymous and revealing the spoofed country name if anonymous to retrieve server details and execute commands which includes Whois and Nmap under masked IP through NIPE (a.k.a TOR) via a remote server connection from the local server. Finally, it saves the collected data into local sever directory, sub-directories and files and maintains a log for auditing data collection activities.
